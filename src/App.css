@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/* Header */
+body{
+box-sizing: border-box;
+margin:0;
+padding:0;
+text-decoration:none;
+height:500em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#site-title {
+    /* border: solid 5px #aaa9ad; */
+    font-size:4rem;
+    font-weight: 800;
+    margin:0.25em;
+    color: #f4f5f9;
+    }
+
+/* NAV ---------------------------------- */
+
+#navbar {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background: #4aa5f5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#navlinks{
+    display:flex;
+    justify-content: space-evenly;
+    margin:1em;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#navlinks a {
+    text-decoration: none;
+    font-weight:500;
+    color: #f4f5f9;
 }
 
-.App-link {
-  color: #61dafb;
+#navlinks a:hover{
+color:#776413;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* PHILOSOPHY ------------------------------ */
+
+#philosophy-img{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:500px;
+    width:100%;
+}
+
+#philosophy{
+    /* background-color:#cee2f4; */
+    height:300px;
+    margin:10px 3em;
+}
+
+#philosophy-wrapper{
+}
+
+#philosophy-header{
+    color:#776413;
+    font-weight:500;
+    font-size:2.5rem;
+    margin:0;
+    margin-top:1em;
+}
+
+.text-heading{
+    color:#776413;
+    font-weight:500;
+    font-size:1.8rem;
+}
+
+.body-text{
+    justify-content:justify;
+    letter-spacing: 0.5px;
+    line-height:2em;
+}
+
+/* HOME -------------------------------- */
+
+#home-img{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:500px;
+    width:100%;
+}
+
+#home-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:#b5d7f4;
+    padding:0.5em;
+    grid-gap:1em;
+    
+
+}
+
+.grid-item{
+    background-color:#fff;
+    border-radius: 0.3em;
+    height:30em;
+}
+
+/* DOJO ------------------------------------------ */
+
+#dojo-img{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:500px;
+    width:100%;
+}
+
+#dojo-tagline{
+    text-align:center;
+    color:#776413;
+    margin-top:0;
+}
+
+
+/* COMPLEX WORKSHOP ----------------------------- */
+
+#complex-workshop-img{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:500px;
+    width:100%;
 }
