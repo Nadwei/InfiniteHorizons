@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/InfiniteHorizons/static/css/main.9dc6a870.css",
+    "main.js": "/InfiniteHorizons/static/js/main.9be4f381.js",
+    "static/media/complex_workshop_img.jpg": "/InfiniteHorizons/static/media/complex_workshop_img.bd309b683e010c4a2baf.jpg",
+    "static/media/global-spirit-clock.jpg": "/InfiniteHorizons/static/media/global-spirit-clock.4a0356e137146c4b03d5.jpg",
+    "static/media/philosophy-image.jpg": "/InfiniteHorizons/static/media/philosophy-image.e3367ec405db78be3262.jpg",
+    "static/media/dojo.jpg": "/InfiniteHorizons/static/media/dojo.7bc52a57c650bf7dcd1b.jpg",
+    "index.html": "/InfiniteHorizons/index.html",
+    "main.9dc6a870.css.map": "/InfiniteHorizons/static/css/main.9dc6a870.css.map",
+    "main.9be4f381.js.map": "/InfiniteHorizons/static/js/main.9be4f381.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dc6a870.css",
+    "static/js/main.9be4f381.js"
+  ]
+}
