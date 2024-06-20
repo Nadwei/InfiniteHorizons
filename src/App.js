@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Dojo from './pages/Dojo';
-import Philosophy from './pages/Philosophy';
-import ComplexWorkshop from './pages/ComplexWorkshop';
+import PhiloSpirit from './pages/PhiloSpirit';
+import MindBody from './pages/MindBody';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Alternative from './pages/Alternative';
 
 
 export default function App() {
@@ -14,9 +14,9 @@ export default function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path="/Dojo" element={<Dojo/>}/>
-        <Route path="/Philosophy" element={<Philosophy/>}/>
-        <Route path="/ComplexWorkshop" element={<ComplexWorkshop/>}/>
+        <Route path="/Alternative" element={<Alternative/>}/>
+        <Route path="/PhiloSpirit" element={<PhiloSpirit/>}/>
+        <Route path="/MindBody" element={<MindBody/>}/>
       </Routes>
     </Router>
   )

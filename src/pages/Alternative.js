@@ -5,11 +5,11 @@ import React from "react";
 
 
 
-export default function Dojo(){
+export default function Alternative(){
 
     return(
         <div>
-            <img id="dojo-img" src={require('../dojo.jpg')} />
+            <img id="alternative" src={require('../staticImages/alternative.jpg')} />
             <h1 id="dojo-tagline">Learn - Practice - Grow - Repeat</h1>
 
             <div id="dojo-mind">

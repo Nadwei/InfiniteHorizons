@@ -12,10 +12,10 @@ import React from "react";
 // --------------------------------------------------------
 
 
-export default function Philosophy() {
+export default function PhiloSpirit() {
 return(
     <div id="philosophy-wrapper">
-            <img id="philosophy-img" src={require('../philosophy-image.jpg')} />
+            <img id="philoSpiritImg" src={require('../staticImages/philoSpirit.jpg')} />
             <section id="philosophy">
                 <h2 id="philosophy-header">Our Philosophy</h2>
                 <h3 className="text-heading">A Call to Awakening</h3>
