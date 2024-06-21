@@ -7,12 +7,18 @@ text-decoration:none;
 height:500em;
 }
 
+
+
+
 #site-title {
     /* border: solid 5px #aaa9ad; */
-    font-size:4rem;
+    font-size:1.8rem;
     font-weight: 800;
-    margin:0.25em;
     color: #f4f5f9;
+    letter-spacing:0.05em;
+    margin:0.5em 0.2em;
+    line-height:1.1em;
+    width:40%;
     }
 
 #site-title a {
@@ -28,17 +34,68 @@ height:500em;
 
 #navbar {
     display:flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: space-between;
+    padding: 0 20px;
     background: #4aa5f5;
 }
-
-
 
 #navlinks{
     display:flex;
     justify-content: space-evenly;
     margin:1em;
+    display:none;
+}
+
+#navlinks.closed {
+    display:none;
+}
+
+#navlinks.open {
+    display:flex;
+    position:absolute;
+    z-index: 1;
+    top:4em;
+    left:0;
+    background-color: #4aa5f5;
+    color:#fff;
+    height:3em;
+    width:100%;
+    margin-left:0;
+    border-top:solid 2px #fff;
+    align-items: center;
+    
+}
+
+.top-bar, .mid-bar, .bottom-bar{
+background-color:#fff;
+height:0.35em;
+width:2em;
+border-radius:0.3em;
+margin:0.15em;
+
+}
+
+#menu-icon{
+        display:flex;
+        flex-direction:column;
+        align-self:center;
+        margin-right:10px;
+    }
+
+#menu-icon:hover .menu{
+    background-color:#776413;
+    cursor:pointer;
+}
+
+.top-bar{
+
+}
+
+.mid-bar{
+
+}
+
+.bottom-bar{
 
 }
 
@@ -52,9 +109,12 @@ height:500em;
 color:#776413;
 }
 
+
+
+
 /* PHILOSOPHY ------------------------------ */
 
-#philosophy-img{
+#philoSpiritImg{
     object-fit:cover;
     object-position: 50% 50%;
     height:500px;
@@ -116,9 +176,9 @@ color:#776413;
     height:30em;
 }
 
-/* DOJO ------------------------------------------ */
+/* ALTERNATIVE ------------------------------------------ */
 
-#dojo-img{
+#alternative{
     object-fit:cover;
     object-position: 50% 50%;
     height:500px;
@@ -134,9 +194,40 @@ color:#776413;
 
 /* COMPLEX WORKSHOP ----------------------------- */
 
-#complex-workshop-img{
+#mindBodyImg{
     object-fit:cover;
     object-position: 50% 50%;
     height:500px;
     width:100%;
 }
+
+
+/* MEDIA QUERIES ----------------------*/
+@media (min-width: 425px) {
+    #navbar {
+      flex-direction: row;
+      height:5em;
+    }
+
+    #site-title{
+        align-self: center;
+    }
+  }
+
+  @media (min-width:768px) {
+    #menu-icon{
+        display:none;
+    }
+    #navlinks{
+        display:flex !important;
+        align-items: last baseline;
+    }
+
+    #navlinks a{
+        width:100%;
+        padding:0em 2em;
+        font-size: 1.1rem;
+
+    }
+
+  }
