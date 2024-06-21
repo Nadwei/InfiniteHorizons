@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/InfiniteHorizons/static/css/main.08dbac12.css",
-    "main.js": "/InfiniteHorizons/static/js/main.959f0b26.js",
+    "main.css": "/InfiniteHorizons/static/css/main.f1ef6bcd.css",
+    "main.js": "/InfiniteHorizons/static/js/main.7226eb70.js",
     "static/media/mindBody.jpg": "/InfiniteHorizons/static/media/mindBody.bd309b683e010c4a2baf.jpg",
     "static/media/home.jpg": "/InfiniteHorizons/static/media/home.4a0356e137146c4b03d5.jpg",
     "static/media/philoSpirit.jpg": "/InfiniteHorizons/static/media/philoSpirit.e3367ec405db78be3262.jpg",
     "static/media/alternative.jpg": "/InfiniteHorizons/static/media/alternative.7bc52a57c650bf7dcd1b.jpg",
     "index.html": "/InfiniteHorizons/index.html",
-    "main.08dbac12.css.map": "/InfiniteHorizons/static/css/main.08dbac12.css.map",
-    "main.959f0b26.js.map": "/InfiniteHorizons/static/js/main.959f0b26.js.map"
+    "main.f1ef6bcd.css.map": "/InfiniteHorizons/static/css/main.f1ef6bcd.css.map",
+    "main.7226eb70.js.map": "/InfiniteHorizons/static/js/main.7226eb70.js.map"
   },
   "entrypoints": [
-    "static/css/main.08dbac12.css",
-    "static/js/main.959f0b26.js"
+    "static/css/main.f1ef6bcd.css",
+    "static/js/main.7226eb70.js"
   ]
 }
