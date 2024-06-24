@@ -1,24 +1,44 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"
 
 
 
 export default function Navbar(){
 const [menuOpen, setMenuOpen] = useState(false);
+const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 768);
+
+useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+
 
 
     return(
             <nav id="navbar">
                 
-                <h1 href="#" id="site-title"><a href="#">Infinite Horizons</a></h1>
+                <h1 id="site-title">
+                    
+                    <Link to="/">Infinite Horizons</Link>
+                </h1>
+                
                 
                     
                 {menuOpen && (
-                <div id="navlinks" className={menuOpen ? "open" : "closed"}>
+                <div id="navlinks" className={menuOpen  || isLargeScreen? "open" : "closed"}>
                     <Link to="/">Home</Link>
-                    <Link to="/Alternative">Alternative</Link>
-                    <Link to="/MindBody">Mind-Body</Link>
-                    <Link to="/PhiloSpirit">Philosophy-Spiritual</Link>
+                    <Link to="/Alternative">Tech/Alternative</Link>
+                    <Link to="/MindBody">Holistic Wellness</Link>
+                    <Link to="/PhiloSpirit">Personal Enlightenment</Link>
                     </div>
                 )}
                 <div id="menu-icon" onClick={() =>setMenuOpen(!menuOpen)}>
@@ -27,8 +47,6 @@ const [menuOpen, setMenuOpen] = useState(false);
                 <div className="menu bottom-bar"></div>
             </div>
             
-                   
-                
             </nav>
     )
 }
