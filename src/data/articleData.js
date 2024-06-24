@@ -1,9 +1,19 @@
 
+import headerImage from '../articleHeaderImages/Personal_Enlightenment.jpg';
+import bodyImage1 from '../articleBodyImages/individual_to_society.jpg';
+import bodyImage2 from '../articleBodyImages/interconnectedness.jpg';
+
+
+
 const articles = [
     {
       id: 1,
       title: 'A Philosophical Call to Action',
       date: 'June 6, 2024',
+      headerImage: {
+        src: headerImage,
+        alt: 'geometric energy patterns from the sun',
+      },
       paragraphs: {
         paragraph_1:`In this time of rapid transformation, we stand on the brink of a new dawn. 
         A global process of creation and unfoldment is unraveling before us, bringing both challenges and opportunities. 
@@ -20,20 +30,20 @@ const articles = [
         paragraph_4:`Every human shares commonalities, such as the interplay of body, mind, and emotion. 
         By maintaining constant contact with these dimensions of our lived experience, we can catalyze enduring self-transformations. 
         This leads to a deeper liberating force of understanding within ourselves, between each other, and the world around us.`,
-        paragraph_4:`All external forms or "figures" arise from a context, much like plants emerge from the soil. 
+        paragraph_5:`All external forms or "figures" arise from a context, much like plants emerge from the soil. 
         By consciously influencing our context, we gain power over the various figures and forms which arise within us, both consciously and unconsciously. 
         This awareness allows us to shape our destiny rather than being directed by it.`,
-        paragraph_5:`Our self-image, view of others, and worldview function like a compass, guiding us through life. 
+        paragraph_6:`Our self-image, view of others, and worldview function like a compass, guiding us through life. 
         Establishing and maintaining deep awareness of this relational complex is crucial for conscious self-creation and co-creation of our shared reality. 
         As we become more aware, we can direct our lives with intention and purpose.`,
-        paragraph_6:`Through honest inquiry, self-transparency, and accountability, we can move towards greater functionality, wholeness, and self-realization. 
+        paragraph_7:`Through honest inquiry, self-transparency, and accountability, we can move towards greater functionality, wholeness, and self-realization. 
         By purifying and reconciling our perceptions while recognizing the same in others, we foster a more harmonious existence.`,
-        paragraph_7:`Self-reflection and discovery reveal our core values and interests. 
+        paragraph_8:`Self-reflection and discovery reveal our core values and interests. 
         These become critical tools for developing skills and abilities aligned with our natural composition. 
         Over time, we can create a life that is fulfilling and aligned with our true selves.`,
-        paragraph_8:`A lifestyle and identity which nourish, support, and empower us emerges from this process. 
+        paragraph_9:`A lifestyle and identity which nourish, support, and empower us emerges from this process. 
         By establishing robust connections with ourselves, others, and the world, we become unshakable and nearly unstoppable.`,
-        paragraph_9:`In such chaotic and uncertain times, hardly anything could be a more invaluable tool than a template, vision, mission, and cause which earnestly seeks to extend the blessings of freedom, autonomy, self-realization, and self-actualization to every human being. 
+        paragraph_10:`In such chaotic and uncertain times, hardly anything could be a more invaluable tool than a template, vision, mission, and cause which earnestly seeks to extend the blessings of freedom, autonomy, self-realization, and self-actualization to every human being. 
         It's in this vein we extend deep gratitude, appreciation, and encouragement to all in their own quest to catylize such a toolkit, map, and compass.
         We encourage and invite all to see and feel deeply, and to keep the flame of hope and transformation alive, within and without.`
       },
@@ -49,16 +59,13 @@ const articles = [
         subheading_9:`A Life of Meaning`,
       },
 
-      headerImage: {
-        src: '',
-        alt: '',
-      },
-      bodyImages: [
-        { src: '', alt: '' },
-        // More body images...
-      ],
+       bodyImages: [
+      { src: bodyImage1, alt: 'Society as it is constructed by the individuals within it' },
+      { src: bodyImage2, alt: 'Native American woman holding offering the Earth in her hands.' },
+    ],
     },
-    // More articles...
+
+    // More articles here... 
   ];
 
   export default articles;
