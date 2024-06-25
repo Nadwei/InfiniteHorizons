@@ -112,13 +112,14 @@ color:#776413;
 
 
 
-/* PHILOSOPHY ------------------------------ */
+/* HOLISTIC WELLNESS ------------------------------ */
 
 #philoSpiritImg{
     object-fit:cover;
     object-position: 50% 50%;
     height:500px;
     width:100%;
+    margin-bottom:4em;
 }
 
 #philosophy{
@@ -200,6 +201,39 @@ color:#776413;
     height:500px;
     width:100%;
 }
+
+/* ARTICLE ------------------------------------- */
+.articleHeaderImage{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:300px;
+    width:100%;
+}
+
+.bodyImg1{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:300px;
+    width:100%;
+}
+
+.bodyImg2{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:300px;
+    width:100%;
+}
+
+
+
+#article-1{
+    margin:2em;
+    text-align:justify;
+    letter-spacing:0.015em;
+    font-size:18px;
+    line-height:2em;
+}
+
 
 
 /* MEDIA QUERIES ----------------------*/
