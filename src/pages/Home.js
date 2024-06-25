@@ -5,7 +5,7 @@ import  articles  from "../data/articleData";
 export default function Home() {
    return (
      <div id="home-wrapper">
-       <img id="home-img" src={require('../staticImages/home.jpg')} />
+       <img id="home-img" src={require('../staticImages/home.jpg')} alt=""/>
        <div id="home-grid">
          {articles.map((article, index) => (
             article.title && article.date && article.body && article.headerImage && article.bodyImages.length > 0 ?

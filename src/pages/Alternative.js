@@ -9,7 +9,7 @@ export default function Alternative(){
 
     return(
         <div>
-            <img id="alternative" src={require('../staticImages/alternative.jpg')} />
+            <img id="alternative" src={require('../staticImages/alternative.jpg')} alt="" />
             <h1 id="dojo-tagline">Learn - Practice - Grow - Repeat</h1>
 
             <div id="dojo-mind">

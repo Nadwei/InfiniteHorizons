@@ -8,7 +8,7 @@ export default function PhiloSpirit() {
 
   return (
     <div id="philosophy-wrapper">
-      <img id="philoSpiritImg" src={require('../staticImages/philoSpirit.jpg')} />
+      <img id="philoSpiritImg" src={require('../staticImages/philoSpirit.jpg')} alt=""/>
       <div id="holistic_wellness_articles">
         <Article key={firstArticle.id} article={firstArticle} />
       </div>
