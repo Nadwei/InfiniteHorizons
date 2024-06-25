@@ -2,7 +2,7 @@ import React from "react";
 import Article from "../components/Article";
 import articles from "../data/articleData";
 
-export default function PhiloSpirit() {
+export default function PersonlEnlightenment() {
   // Get the first article
   const firstArticle = articles[0];
 

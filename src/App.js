@@ -1,7 +1,7 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import PhiloSpirit from './pages/PhiloSpirit';
+import PersonalEnlightenment from './pages/PersonalEnlightenment';
 import MindBody from './pages/MindBody';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path="/Alternative" element={<Alternative/>}/>
-        <Route path="/PhiloSpirit" element={<PhiloSpirit/>}/>
+        <Route path="/PersonalEnlightenment" element={<PersonalEnlightenment/>}/>
         <Route path="/MindBody" element={<MindBody/>}/>
       </Routes>
     </Router>
