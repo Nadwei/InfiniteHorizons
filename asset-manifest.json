@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/InfiniteHorizons/static/css/main.f1ef6bcd.css",
-    "main.js": "/InfiniteHorizons/static/js/main.7226eb70.js",
-    "static/media/mindBody.jpg": "/InfiniteHorizons/static/media/mindBody.bd309b683e010c4a2baf.jpg",
-    "static/media/home.jpg": "/InfiniteHorizons/static/media/home.4a0356e137146c4b03d5.jpg",
-    "static/media/philoSpirit.jpg": "/InfiniteHorizons/static/media/philoSpirit.e3367ec405db78be3262.jpg",
-    "static/media/alternative.jpg": "/InfiniteHorizons/static/media/alternative.7bc52a57c650bf7dcd1b.jpg",
-    "index.html": "/InfiniteHorizons/index.html",
-    "main.f1ef6bcd.css.map": "/InfiniteHorizons/static/css/main.f1ef6bcd.css.map",
-    "main.7226eb70.js.map": "/InfiniteHorizons/static/js/main.7226eb70.js.map"
+    "main.css": "/static/css/main.97284fe6.css",
+    "main.js": "/static/js/main.c46b4b16.js",
+    "static/media/mindBody.jpg": "/static/media/mindBody.bd309b683e010c4a2baf.jpg",
+    "static/media/home.jpg": "/static/media/home.4a0356e137146c4b03d5.jpg",
+    "static/media/philoSpirit.jpg": "/static/media/philoSpirit.e3367ec405db78be3262.jpg",
+    "static/media/alternative.jpg": "/static/media/alternative.7bc52a57c650bf7dcd1b.jpg",
+    "static/media/Personal_Enlightenment.jpg": "/static/media/Personal_Enlightenment.7459013630ab2387b6e2.jpg",
+    "static/media/interconnectedness.jpg": "/static/media/interconnectedness.ca68fa785336669297f2.jpg",
+    "static/media/individual_to_society.jpg": "/static/media/individual_to_society.3264dee9d35cf3a315a2.jpg",
+    "index.html": "/index.html",
+    "main.97284fe6.css.map": "/static/css/main.97284fe6.css.map",
+    "main.c46b4b16.js.map": "/static/js/main.c46b4b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1ef6bcd.css",
-    "static/js/main.7226eb70.js"
+    "static/css/main.97284fe6.css",
+    "static/js/main.c46b4b16.js"
   ]
 }
