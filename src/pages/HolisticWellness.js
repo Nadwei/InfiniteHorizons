@@ -5,7 +5,7 @@ import React from "react";
 
 
 
-export default function MindBody() {
+export default function HolisticWellness() {
     return(
         <div>
             <img id="mindBodyImg" src={require('../staticImages/mindBody.jpg')} alt="" />

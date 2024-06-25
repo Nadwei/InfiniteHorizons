@@ -2,10 +2,10 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import PersonalEnlightenment from './pages/PersonalEnlightenment';
-import MindBody from './pages/MindBody';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Alternative from './pages/Alternative';
+import HolisticWellness from './pages/HolisticWellness';
 
 
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
         <Route path='/' element={<Home/>}/>
         <Route path="/Alternative" element={<Alternative/>}/>
         <Route path="/PersonalEnlightenment" element={<PersonalEnlightenment/>}/>
-        <Route path="/MindBody" element={<MindBody/>}/>
+        <Route path="/HolisticWellness" element={<HolisticWellness/>}/>
       </Routes>
     </Router>
   )
