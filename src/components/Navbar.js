@@ -36,7 +36,7 @@ useEffect(() => {
                 {menuOpen && (
                 <div id="navlinks" className={menuOpen  || isLargeScreen? "open" : "closed"}>
                     <Link to="/">Home</Link>
-                    <Link to="/Alternative">Tech/Alternative</Link>
+                    <Link to="/Tech_Alternative">Tech/Alternative</Link>
                     <Link to="/HolisticWellness">Holistic Wellness</Link>
                     <Link to="/PersonalEnlightenment">Personal Enlightenment</Link>
                     </div>

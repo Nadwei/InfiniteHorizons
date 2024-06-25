@@ -5,7 +5,7 @@ import React from "react";
 
 
 
-export default function Alternative(){
+export default function Tech_Alternative(){
 
     return(
         <div>

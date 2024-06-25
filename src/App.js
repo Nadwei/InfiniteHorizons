@@ -4,7 +4,7 @@ import './App.css';
 import PersonalEnlightenment from './pages/PersonalEnlightenment';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Alternative from './pages/Alternative';
+import Tech_Alternative from './pages/Tech_Alternative';
 import HolisticWellness from './pages/HolisticWellness';
 
 
@@ -14,7 +14,7 @@ export default function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path="/Alternative" element={<Alternative/>}/>
+        <Route path="/Tech_Alternative" element={<Tech_Alternative/>}/>
         <Route path="/PersonalEnlightenment" element={<PersonalEnlightenment/>}/>
         <Route path="/HolisticWellness" element={<HolisticWellness/>}/>
       </Routes>
