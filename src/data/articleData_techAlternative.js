@@ -1,4 +1,4 @@
-const articles = [
+const techAlternativeArticles = [
     {
       id: 1,
       title: '',

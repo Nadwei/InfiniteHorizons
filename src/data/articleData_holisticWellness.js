@@ -1,4 +1,4 @@
-const articles = [
+const holisticWellnessArticles = [
     {
       id: 1,
       title: '',

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Article({ article }) {
+export default function Articles({ article }) {
   const handleError = (e) => {
     e.target.src = '';
     alert("we got a problem, cheif!") // Handle image loading errors if needed

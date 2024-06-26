@@ -1,10 +1,10 @@
 import React from "react";
 import Article from "../components/Article";
-import articles from "../data/articleData_personalEnlightenment";
+import Articles from "../data/articleData_personalEnlightenment";
 
 export default function PersonlEnlightenment() {
   // Get the first article
-  const firstArticle = articles[0];
+  const firstArticle = Articles[0];
 
   return (
     <div id="philosophy-wrapper">
