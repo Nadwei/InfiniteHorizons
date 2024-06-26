@@ -3,7 +3,22 @@ import React from "react";
 export default function HolisticWellnessArticle({ article }) {
   const handleError = (e) => {
     e.target.src = '';
-    alert("we got a problem, chief!") // Handle image loading errors if needed
+    alert("we got a problem, chief!"); // Handle image loading errors if needed
+  };
+
+  const renderParagraph = (paragraph) => {
+    if (paragraph.includes("Medium")) {
+      return (
+        <p>
+          {paragraph.split("Medium")[0]}
+          <a href="https://medium.com/cum-grano-salis/the-self-authoring-suite-210846b4a682" target="_blank" rel="noopener noreferrer">
+            Medium
+          </a>
+          {paragraph.split("Medium")[1]}
+        </p>
+      );
+    }
+    return <p>{paragraph}</p>;
   };
 
   return (
@@ -18,7 +33,7 @@ export default function HolisticWellnessArticle({ article }) {
             <>
               <h3>{section.subheading}</h3>
               {section.subparagraphs.map((paragraph, pIndex) => (
-                <p key={pIndex}>{paragraph}</p>
+                renderParagraph(paragraph, pIndex)
               ))}
             </>
           )}
