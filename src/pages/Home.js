@@ -1,6 +1,6 @@
 import React from "react";
 import Article from "../components/Article";
-import  articles  from "../data/articleData";
+import  articles  from "../data/articleData_personalEnlightenment";
 
 export default function Home() {
    return (
