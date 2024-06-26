@@ -9,7 +9,7 @@ export default function HolisticWellnessArticle({ article }) {
   const renderParagraph = (paragraph) => {
     if (paragraph.includes("Medium")) {
       return (
-        <p>
+        <p key={paragraph}>
           {paragraph.split("Medium")[0]}
           <a href="https://medium.com/cum-grano-salis/the-self-authoring-suite-210846b4a682" target="_blank" rel="noopener noreferrer">
             Medium
@@ -17,8 +17,18 @@ export default function HolisticWellnessArticle({ article }) {
           {paragraph.split("Medium")[1]}
         </p>
       );
+    } else if (paragraph.includes("life authoring")) {
+      return (
+        <p key={paragraph}>
+          {paragraph.split("life authoring")[0]}
+          <a href="https://selfauthoring.com/" target="_blank" rel="noopener noreferrer">
+            life authoring
+          </a>
+          {paragraph.split("life authoring")[1]}
+        </p>
+      );
     }
-    return <p>{paragraph}</p>;
+    return <p key={paragraph}>{paragraph}</p>;
   };
 
   return (
