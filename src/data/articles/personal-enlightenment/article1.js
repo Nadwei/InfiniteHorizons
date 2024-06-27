@@ -1,14 +1,14 @@
-import headerImage from '../articleHeaderImages/Personal_Enlightenment.jpg';
-import bodyImage1 from '../articleBodyImages/individual_to_society.jpg';
-import bodyImage2 from '../articleBodyImages/interconnectedness.jpg';
+import mainImage from '../../../assets/images/articles/article1/article1-main.jpg';
+import bodyImage1 from '../../../assets/images/articles/article1/article1-1.jpg';
+import bodyImage2 from '../../../assets/images/articles/article1/article1-2.jpg';
 
-const articles = [
+const enlightenmentArticle = [
   {
     id: 1,
     title: 'A Philosophical Call to Action',
     date: 'June 6, 2024',
     headerImage: {
-      src: headerImage,
+      src: mainImage,
       alt: 'geometric energy patterns from the sun',
     },
     paragraph1: {
@@ -45,4 +45,4 @@ const articles = [
   },
 ];
 
-export default articles;
+export default enlightenmentArticle;

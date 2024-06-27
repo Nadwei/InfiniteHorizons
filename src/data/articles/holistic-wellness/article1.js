@@ -1,6 +1,6 @@
-import headerImage from '../../assets/images/holistic-wellness.jpg';
-import bodyImage1 from '../articleBodyImages/emotional_self_regulation.jpg';
-import bodyImage2 from '../articleBodyImages/structured_self_reflection.jpg';
+import  mainImage from '../../../assets/images/articles/article2/article2-main.jpg';
+import bodyImage1 from '../../../assets/images/articles/article2/article2-1.jpg';
+import bodyImage2 from '../../../assets/images/articles/article2/article2-2.jpg';
 
 const holisticArticle = [
   {
@@ -8,7 +8,7 @@ const holisticArticle = [
     "title": "Overcoming Parasitic Thought Patterns: Tools for Personal Growth",
     "date": "June 26, 2024",
     "headerImage": {
-      "src": headerImage,
+      "src": mainImage,
       "alt": ""
     },
     "content": [

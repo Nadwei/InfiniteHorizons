@@ -114,7 +114,7 @@ color:#776413;
 
 /* HOLISTIC WELLNESS ------------------------------ */
 
-#philoSpiritImg{
+.bodyImage{
     object-fit:cover;
     object-position: 50% 50%;
     height:500px;
