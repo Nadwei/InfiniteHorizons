@@ -117,15 +117,21 @@ color:#776413;
 .bodyImage{
     object-fit:cover;
     object-position: 50% 50%;
-    height:500px;
+    height:300px;
     width:100%;
-    margin-bottom:4em;
 }
 
 #philosophy{
     /* background-color:#cee2f4; */
     height:300px;
     margin:10px 3em;
+}
+
+#philoSpiritImg{
+    object-fit:cover;
+    object-position: 50% 50%;
+    height:500px;
+    width:100%;
 }
 
 #philosophy-wrapper{
