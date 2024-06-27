@@ -1,12 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import personalEnlightenmentArticles from '../data/articles/personal-enlightenment/article1';
+import holisticArticles from '../data/articles/holistic-wellness/article1';
 
 export default function HomePage() {
-   return (
-     <div id="home-wrapper">
-       <img id="home-img" src={require('../assets/images/home.jpg')} alt=""/>
-       <div id="home-grid">
-         
-       </div>
-     </div>
-   );
- }
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    const combinedArticles = [...personalEnlightenmentArticles, ...holisticArticles];
+    combinedArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    setArticles(combinedArticles);
+  }, []);
+
+  const renderArticleComponent = (article) => {
+    if (personalEnlightenmentArticles.includes(article)) {
+      const ArticlePersonalEnlightenment = require('../components/articles/personal-enlightenment/Article_1').default;
+      return <ArticlePersonalEnlightenment key={article.id} article={article} />;
+    } else if (holisticArticles.includes(article)) {
+      const ArticleHolisticWellness = require('../components/articles/holistic-wellness/Article_1').default;
+      return <ArticleHolisticWellness key={article.id} article={article} />;
+    }
+    return null;
+  };
+
+  return (
+    <div id="home-wrapper">
+      <img id="home-img" src={require('../assets/images/home.jpg').default} alt="Home" />
+      <h1>Most Recent</h1>
+      <div id="home-grid">
+        {articles.map(article => renderArticleComponent(article))}
+      </div>
+    </div>
+  );
+}
