@@ -173,19 +173,21 @@ color:#776413;
 
 #home-grid{
     display:grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color:#b5d7f4;
+    /* background-color:#b5d7f4; */
     padding:0.5em;
     grid-gap:1em;
-    
+}
 
+#home-heading{
+    margin-left: 44px;
 }
 
 .grid-item{
     background-color:#fff;
     border-radius: 0.3em;
     height:30em;
+    border-bottom: solid 2px #ccc;
 }
 
 /* ALTERNATIVE ------------------------------------------ */
@@ -219,6 +221,14 @@ color:#776413;
     object-position: 50% 50%;
     height:300px;
     width:100%;
+    margin-bottom:1em;
+}
+
+.article-date{
+}
+
+.article-title{
+   margin-bottom:-15px;
 }
 
 .bodyImg1{

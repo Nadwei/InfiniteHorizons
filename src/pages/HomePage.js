@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import personalEnlightenmentArticles from '../data/articles/personal-enlightenment/article1';
 import holisticArticles from '../data/articles/holistic-wellness/article1';
+import homeImage from '../assets/images/home.jpg';
 
 export default function HomePage() {
   const [articles, setArticles] = useState([]);
@@ -24,8 +25,8 @@ export default function HomePage() {
 
   return (
     <div id="home-wrapper">
-      <img id="home-img" src={require('../assets/images/home.jpg').default} alt="Home" />
-      <h1>Most Recent</h1>
+      <img id="home-img" src={homeImage} alt="Home" />
+      <h1 id="home-heading">Most Recent</h1>
       <div id="home-grid">
         {articles.map(article => renderArticleComponent(article))}
       </div>

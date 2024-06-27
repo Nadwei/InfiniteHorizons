@@ -33,8 +33,8 @@ export default function Article_1({ article }) {
 
   return (
     <div id={`article-${article.id}`}>
-      <h2>{article.title}</h2>
-      <h3>{article.date}</h3>
+      <h2 className="article-title">{article.title}</h2>
+      <h3 className="article-date">{article.date}</h3>
       <img className="articleHeaderImage" src={article.headerImage.src} alt={article.headerImage.alt} onError={handleError} />
 
       {Object.keys(article).map((key, index) => {
