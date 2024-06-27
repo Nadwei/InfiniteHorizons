@@ -1,4 +1,4 @@
-import headerImage from '../articleHeaderImages/parasitic_processing_article_image.jpg';
+import headerImage from '../../assets/images/holistic-wellness.jpg';
 import bodyImage1 from '../articleBodyImages/emotional_self_regulation.jpg';
 import bodyImage2 from '../articleBodyImages/structured_self_reflection.jpg';
 

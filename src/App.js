@@ -1,11 +1,11 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './styles/App.css';
 
-import PersonalEnlightenment from './pages/PersonalEnlightenment';
+import PersonalEnlightenment from './pages/PersonalEnlightenmentPage';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import Tech_Alternative from './pages/Tech_Alternative';
-import HolisticWellness from './pages/HolisticWellness';
+import Home from './pages/HomePage';
+import Tech_Alternative from './pages/TechAlternativePage';
+import HolisticWellness from './pages/HolisticWellnessPage';
 
 
 export default function App() {

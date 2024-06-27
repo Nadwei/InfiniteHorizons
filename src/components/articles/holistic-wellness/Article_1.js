@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function HolisticWellnessArticle({ article }) {
+export default function Article_1({ article }) {
   const handleError = (e) => {
     e.target.src = '';
     alert("we got a problem, chief!"); // Handle image loading errors if needed
