@@ -26,10 +26,11 @@ export default function HomePage() {
   return (
     <div id="home-wrapper">
       <img id="home-img" src={homeImage} alt="Home" />
-      <h1 id="home-heading">Most Recent</h1>
+      <h1 id="home-heading">What's New?</h1>
       <div id="home-grid">
         {articles.map(article => renderArticleComponent(article))}
       </div>
     </div>
   );
 }
+s
