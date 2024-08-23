@@ -10,7 +10,7 @@ export default function TechAlternativePage(){
     return(
         <div>
             <img id="alternative" src={require('../assets/images/tech-alternative.jpg')} alt="" />
-            <h1 id="dojo-tagline">Learn - Practice - Grow - Repeat</h1>
+            <h1 id="dojo-tagline">Coming Soon!</h1>
 
             <div id="dojo-mind">
                 <h2>Mind</h2>

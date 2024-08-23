@@ -26,6 +26,10 @@ export default function HomePage() {
   return (
     <div id="home-wrapper">
       <img id="home-img" src={homeImage} alt="Home" />
+      <div>
+      <h3>Announcements </h3> 
+      <p>This site is undergoing reconstrution, and many things may be missing or functioning strangely, like menus and so on. Please be patient with us! </p>
+      </div>
       <h1 id="home-heading">What's New?</h1>
       <div id="home-grid">
         {articles.map(article => renderArticleComponent(article))}
