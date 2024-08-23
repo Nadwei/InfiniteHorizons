@@ -12,7 +12,7 @@ export default function TechAlternativePage(){
             <img id="alternative" src={require('../assets/images/tech-alternative.jpg')} alt="" />
             <h1 id="dojo-tagline">Coming Soon!</h1>
 
-            <div id="dojo-mind">
+            {/* <div id="dojo-mind">
                 <h2>Mind</h2>
             </div>
 
@@ -22,7 +22,7 @@ export default function TechAlternativePage(){
 
             <div id="dojo-emotion">
                 <h2>Emotion</h2>
-            </div>
+            </div> */}
         </div>
     )
 }
